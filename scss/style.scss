@@ -1,0 +1,22 @@
+@use 'custom';
+
+// Importing the components
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// Importing the sections
+
+@use 'sections/navbar';
+@use 'sections/home';
+@use 'sections/about';
+@use 'sections/background';
+@use 'sections/projects';
+@use 'sections/contact';
+@use 'sections/footer';
+@use 'sections/dfooter';
+
+
+
