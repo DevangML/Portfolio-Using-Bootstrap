@@ -8,6 +8,38 @@
   <title>Mystery Code - Blog</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <style>
+    .carousel-inner>.item>img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 100vh;
+    }
+
+    .carousel {
+      margin-top: 51px;
+      height: auto;
+    }
+
+    .carousel-item {
+      height: 100%;
+    }
+
+    .wrapper {
+      max-width: 200px;
+      width: 100%;
+    }
+
+    .carousel-item-next,
+    .carousel-item-prev,
+    .carousel-item.active {
+      display: block !important;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+
 
   <!-- Google Fonts -->
   <link
@@ -64,8 +96,6 @@
           <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
           <br>
           <li><a href="#cert-gall"><i class="bx bx-book-content"></i> Gallary</a></li>
-          <br>
-          <li><a href="#Timeline"><i class="bx bx-book-content"></i> Timeline</a></li>
           <br>
           <li><a href="#projects"><i class="bx bx-book-content"></i> Projects</a></li>
           <br>
@@ -184,7 +214,8 @@
     </section><!-- End About Section -->
 
     <!-- Gallary Section -->
-    <section class="gallary" id="cert-gall" style="background-color:#333;width:100%;">
+
+    <section class="gallary" id="cert-gall" style="background-color:#333;padding: 24px 0px;">
 
       <div class="container">
         <div class="section-title">
@@ -192,7 +223,7 @@
 
           <!--Carousel Wrapper-->
           <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel"
-            style="margin: 11px 8em;padding-right: 11em;padding-left: 4em;object-fit: cover;object-position: center;">
+            style="margin: auto auto;padding:auto auto;object-fit: cover;object-position: center;">
             <!--Indicators-->
             <ol class="carousel-indicators">
               <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -204,16 +235,16 @@
             <div class="carousel-inner" role="listbox" style="margin: 50px 50px;">
               <div class="carousel-item active">
                 <div class="view">
-                  <img class="d-block w-100" src="/assets/img/Cert/AI.jpeg" alt="First slide"
-                    style="height: auto; width: 100%;border-radius: 40px;object-fit: cover;object-position: center;">
+                  <img class="d-block" src="/assets/img/Cert/AI.jpeg" alt="First slide"
+                    style="height: auto; width: 89%;border-radius: 30px;object-fit: cover;object-position: center;">
                   <div class="mask rgba-black-light"></div>
                 </div>
               </div>
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="/assets/img/Cert/C++.jpeg" alt="First slide"
-                    style="height: auto;border-radius: 40px;object-fit: cover;object-position: center;">
+                  <img class="d-block" src="/assets/img/Cert/C++.jpeg" alt="First slide"
+                    style="height: auto;width:89%;border-radius: 30px;object-fit: cover;object-position: center;">
                   <div class="mask rgba-black-light"></div>
                 </div>
 
@@ -221,64 +252,64 @@
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="/assets/img/Cert/C++_DSC.jpeg" alt="First slide"
-                    style="height: auto;border-radius: 40px;object-fit: cover;object-position: center;">
+                  <img class="d-block" src="/assets/img/Cert/C++_DSC.jpeg" alt="First slide"
+                    style="height: auto;width:89%;border-radius: 30px;object-fit: cover;object-position: center;">
                   <div class="mask rgba-black-light"></div>
                 </div>
               </div>
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="/assets/img/Cert/C.jpeg" alt="First slide"
-                    style="height: auto;border-radius: 40px;object-fit: cover;object-position: center;">
+                  <img class="d-block" src="/assets/img/Cert/C.jpeg" alt="First slide"
+                    style="height: auto;width:89%;border-radius: 30px;object-fit: cover;object-position: center;">
                   <div class="mask rgba-black-light"></div>
                 </div>
               </div>
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="/assets/img/Cert/EF-SET.jpeg" alt="First slide"
-                    style="height: auto;border-radius: 40px;object-fit: cover;object-position: center;">
+                  <img class="d-block" src="/assets/img/Cert/EF-SET.jpeg" alt="First slide"
+                    style="height: auto;width:89%;border-radius: 30px;object-fit: cover;object-position: center;">
                   <div class="mask rgba-black-light"></div>
                 </div>
               </div>
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="/assets/img/Cert/ISA-C.jpeg" alt="First slide"
-                    style="height: auto;border-radius: 40px;object-fit: cover;object-position: center;">
+                  <img class="d-block" src="/assets/img/Cert/ISA-C.jpeg" alt="First slide"
+                    style="height: auto;width:89%;border-radius: 30px;object-fit: cover;object-position: center;">
                   <div class="mask rgba-black-light"></div>
                 </div>
               </div>
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="/assets/img/Cert/Python-Beg.jpeg" alt="First slide"
-                    style="height: auto;border-radius: 40px;object-fit: cover;object-position: center;">
+                  <img class="d-block" src="/assets/img/Cert/Python-Beg.jpeg" alt="First slide"
+                    style="height: auto;width:89%;border-radius: 30px;object-fit: cover;object-position: center;">
                   <div class="mask rgba-black-light"></div>
                 </div>
               </div>
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="/assets/img/Cert/Python-IEEE.jpeg" alt="First slide"
-                    style="height: auto;border-radius: 40px;object-fit: cover;object-position: center;">
+                  <img class="d-block" src="/assets/img/Cert/Python-IEEE.jpeg" alt="First slide"
+                    style="height: auto;width:89%;border-radius: 30px;object-fit: cover;object-position: center;">
                   <div class="mask rgba-black-light"></div>
                 </div>
               </div>
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="/assets/img/Cert/Python-Int.jpeg" alt="First slide"
-                    style="height: auto;border-radius: 40px;object-fit: cover;object-position: center;">
+                  <img class="d-block" src="/assets/img/Cert/Python-Int.jpeg" alt="First slide"
+                    style="height: auto;width:89%;border-radius: 30px;object-fit: cover;object-position: center;">
                   <div class="mask rgba-black-light"></div>
                 </div>
               </div>
               <div class="carousel-item">
                 <!--Mask color-->
                 <div class="view">
-                  <img class="d-block w-100" src="/assets/img/Cert/VishwaConclave.jpeg" alt="First slide"
-                    style="height: auto;border-radius: 40px;object-fit: cover;object-position: center;">
+                  <img class="d-block" src="/assets/img/Cert/VishwaConclave.jpeg" alt="First slide"
+                    style="height: auto;width:89%;border-radius: 30px;object-fit: cover;object-position: center;">
                   <div class="mask rgba-black-light"></div>
                 </div>
               </div>
@@ -297,11 +328,14 @@
           </div>
           <!--/.Carousel Wrapper-->
 
+
         </div>
+      </div>
+
     </section>
 
     <!-- ======= Portfolio Section ======= -->
-    <section class="project" id="projects" style="background-color:rgb(238, 238, 238);margin: 0px 0px;">
+    <section class="project" id="projects" style="background-color:rgb(238, 238, 238);margin: 24px 0px;">
       <div class="container" style="margin: 0px 0px;">
         <div class="section-title">
           <h2 style="color: rgb(51, 51, 51);">My Projects</h2>
